@@ -1,0 +1,35 @@
+.videoWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 50px;
+    margin-block: 20px;
+    img{
+    text-decoration: none !important;
+        
+    }
+}
+
+.title{
+    color: white;
+    text-align: center;
+    
+}
+
+.cardWrapper{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    img{
+        border-radius: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.cardWrapper:hover{
+    background-color: rgb(47, 46, 46);
+}

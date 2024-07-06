@@ -1,0 +1,11 @@
+.register{
+    background-color: #ffffff;
+    padding: 7%;
+    border-radius: 20px;
+
+   .text{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+   }
+}
